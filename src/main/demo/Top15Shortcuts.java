@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import static java.lang.System.out;
 
@@ -86,9 +87,15 @@ public class Top15Shortcuts {
                 out.println(s);
             }
         }
-
     }
 
+
+    /**
+     * Alt+ Enter -> Adjust Code Style Settings , Wrapping and Braces , Chained method calls , wrap always
+     */
+    public void formattingStream() {
+        List<String> alphaStringLinst = getStrings().stream().filter(s -> s.contains("a")).sorted().collect(Collectors.toList());
+    }
 
     /**
      * @param name String
