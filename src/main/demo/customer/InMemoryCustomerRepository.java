@@ -1,14 +1,15 @@
-package java.customer;
-
+package demo.customer;
 
 import java.util.List;
 
-import static java.lang.System.out;
-
-public class CustomerRepositoryStub implements CustomerRepository {
+/**
+ * InMemory
+ *  Go Back     Alt + -> (Arrow key)
+ */
+public class InMemoryCustomerRepository implements CustomerRepository{
     @Override
     public void save(Customer customer) {
-        out.println("customer saved");
+
     }
 
     @Override

@@ -1,4 +1,4 @@
-package java.customer;
+package demo.customer;
 
 import java.util.List;
 

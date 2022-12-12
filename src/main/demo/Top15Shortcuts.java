@@ -1,8 +1,8 @@
-package java;
+package demo;
 
-import java.customer.Customer;
-import java.customer.CustomerRepository;
-import java.customer.CustomerRepositoryStub;
+import demo.customer.Customer;
+import demo.customer.CustomerRepository;
+import demo.customer.CustomerRepositoryStub;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -38,6 +38,18 @@ import static java.lang.System.out;
  * <a href="https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html#learn-shortcuts">Top 15 Intellij</a>
  */
 public class Top15Shortcuts {
+
+    /**
+     * Live Template
+     * psvm -> creates public static void main
+     * sout -> System.out.println
+     * Run Ctrl+Shift + F10
+     *
+     * alt+insert -> generate Test
+     * alt+Insert -> generate Test method e.g. shouldBeAbleToCreate with assertNotNull
+     * Run Ctrl+Shift + F10
+     *
+     */
 
     /**
      * Crtl + B on Class name, jump to class
