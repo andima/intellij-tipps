@@ -40,17 +40,7 @@ import static java.lang.System.out;
  */
 public class Top15Shortcuts {
 
-    /**
-     * Live Template
-     * psvm -> creates public static void main
-     * sout -> System.out.println
-     * Run Ctrl+Shift + F10
-     *
-     * alt+insert -> generate Test
-     * alt+Insert -> generate Test method e.g. shouldBeAbleToCreate with assertNotNull
-     * Run Ctrl+Shift + F10
-     *
-     */
+
 
     /**
      * Crtl + B on Class name, jump to class
@@ -117,9 +107,9 @@ public class Top15Shortcuts {
         String s1 = "singe line string";
 
         /*this is a Block comment with Ctrl+ shift + / */
-         String s2 = " This is a very long string" +
-            "which is on many lines" +
-            "to have a better formatting.";
+        String s2 = " This is a very long string" +
+                "which is on many lines" +
+                "to have a better formatting.";
     }
 
 
@@ -129,7 +119,7 @@ public class Top15Shortcuts {
      * @return
      */
     private List<String> replaceWithCollect(){
-         /*simply add the semi-colo  */
+        /*simply add the semi-colo  */
 //        List<String> result = getStrings()
 
         // complete for or if statement and jump to next coding point
@@ -160,7 +150,7 @@ public class Top15Shortcuts {
 
 
     private Customer getCustomerbyID(int Id){
-       return repository.getById(Id);
+        return repository.getById(Id);
     }
 
     /**
