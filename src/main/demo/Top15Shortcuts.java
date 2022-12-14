@@ -3,6 +3,7 @@ package demo;
 import demo.customer.Customer;
 import demo.customer.CustomerRepository;
 import demo.customer.CustomerRepositoryStub;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,7 +40,6 @@ import static java.lang.System.out;
  * <a href="https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html#learn-shortcuts">Top 15 Intellij</a>
  */
 public class Top15Shortcuts {
-
 
 
     /**
@@ -91,8 +91,8 @@ public class Top15Shortcuts {
      * @param name String
      * Goto Declaration with Ctrl+ B
      */
-    public void saveCustomer(String name, int id){
-        Customer customer= new Customer(name,id);
+    public void saveCustomer(String name, int id) {
+        Customer customer = new Customer(name, id);
         repository.save(customer);
 
     }
@@ -116,9 +116,10 @@ public class Top15Shortcuts {
     /**
      * Complete Current Statement
      * Shift+ Ctrl + Enter
+     *
      * @return
      */
-    private List<String> replaceWithCollect(){
+    private List<String> replaceWithCollect() {
         /*simply add the semi-colo  */
 //        List<String> result = getStrings()
 
@@ -131,12 +132,11 @@ public class Top15Shortcuts {
     /**
      * Refactor
      * Shift + Ctrl + Alt + T
-     *
+     * <p>
      * Duplicate
      * Ctrl + D
-     *
      */
-    public void refactor(){
+    public void refactor() {
 
         //Rename , Constant
         String number = "My name";
@@ -149,7 +149,7 @@ public class Top15Shortcuts {
     }
 
 
-    private Customer getCustomerbyID(int Id){
+    private Customer getCustomerbyID(int Id) {
         return repository.getById(Id);
     }
 
