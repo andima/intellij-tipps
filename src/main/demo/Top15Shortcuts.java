@@ -101,14 +101,15 @@ public class Top15Shortcuts {
     /**
      * single command with Ctrl + /
      * Block comment with Ctrl+ shift + /
+     * Join String Shift + Ctrl + J
      */
     public void commentLines() {
         // single command with Ctrl + /
         String s1 = "singe line string";
 
         /*this is a Block comment with Ctrl+ shift + / */
-        String s2 = " This is a very long string" +
-                "which is on many lines" +
+        String s2 = " This is a very long string " +
+                "which is on many lines " +
                 "to have a better formatting.";
     }
 
