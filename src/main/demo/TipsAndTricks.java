@@ -1,14 +1,18 @@
 package demo;
 
 /**
- * Plugins
- * Key Promoter X
- * Presentation Assistant
- * <p>
- * Distraction and Presentation Mode
- * Views Alt+ V , Alt + A
- * <p>
- * Stop using tabs:
+ * <b>Plugins</b> <p>
+ * Key Promoter X <p>
+ * Presentation Assistant <p>
+ * <br>
+ *
+ * <b>Views</b> <p>
+ * Ctrl+ Shift +F12 Hide/Show all Windows
+ * Distraction and Presentation Mode<p>
+ * Views Alt+ V , Alt + A<p>
+ * <br>
+ *
+ * <b> Stop using tabs:</b> <p>
  * <a href="https://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/">Don't use Tabs in Intellij</a>
  * For example, you have different pom.xml open and don't know which is which
  * <p>
